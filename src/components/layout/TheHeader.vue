@@ -1,5 +1,5 @@
 <template>
-  <div>Build header component</div>
+  <LayoutNavbarItems />
 </template>
 
 <script setup></script>
