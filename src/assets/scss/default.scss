@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Antic Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("AnticSlab-Regular"), url("assets/fonts/AnticSlab-Regular.ttf") format("ttf");
+  font-display: swap;
+}
+
+h1, h2, h3 {
+  font-family: "Antic Slab", serif;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+body {
+  font-family: "Antic Slab", serif;
+  font-size: 16px; // add to standardized typography file
+  line-height: 21px;
+  color: black;
+  letter-spacing: 0.2px;
+  margin: 0;
+  padding: 0;
+}

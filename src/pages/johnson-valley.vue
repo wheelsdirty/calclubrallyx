@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <h1>
     Johnson Valley Page Here
-  </div>
+  </h1>
 </template>
 
 <script setup>

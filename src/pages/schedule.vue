@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <h1>
     Schedule Page Here
-  </div>
+  </h1>
 </template>
 
 <script setup>

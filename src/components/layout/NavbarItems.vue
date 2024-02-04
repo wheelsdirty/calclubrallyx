@@ -24,7 +24,7 @@ const navLinks = [
   { text: 'Antelope Valley', route: '/antelope-valley', target: '_self' },
   { text: 'Glen Helen', route: '/glen-helen', target: '_self' },
   { text: 'Ridgecrest', route: '/ridgecrest', target: '_self' },
-  { text: 'Johnson Valley', route: '/johnson-valley', target: 'self' }
+  { text: 'Johnson Valley', route: '/johnson-valley', target: '_self' }
 ]
 </script>
 
@@ -36,7 +36,7 @@ const navLinks = [
   top: 0;
   height: 69px;
   background-color: white;
-  box-shadow: 0px 3px 3px 0px #0000000D;
+  box-shadow: 0px 2px 5px 0px #DADADA;
   z-index: 5;
 }
 
@@ -62,12 +62,12 @@ const navLinks = [
 }
 
 .nav-item {
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: none;
-  color: black;
+  color: #333333;
 
   &:hover {
-    color: grey;
+    color: #FF6900;
   }
 }
 

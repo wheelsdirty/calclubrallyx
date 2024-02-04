@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   telemetry: false,
   srcDir: 'src/',
   devtools: { enabled: true },
+  css: ['@/assets/scss/default.scss'],
   app: {
     head: {
       htmlAttrs: {

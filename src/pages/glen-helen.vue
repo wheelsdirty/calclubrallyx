@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <h1>
     Glen Helen Page here
-  </div>
+  </h1>
 </template>
 
 <script setup>

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <h1>
     Antelope Valley Page
-  </div>
+  </h1>
 </template>
 
 <script setup>
