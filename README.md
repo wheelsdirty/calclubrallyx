@@ -17,7 +17,7 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run server
+npm run serve
 ```
 
 ## Generate Static Site
@@ -28,11 +28,3 @@ Build the application for production:
 # npm
 npm run generate
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-```
-
