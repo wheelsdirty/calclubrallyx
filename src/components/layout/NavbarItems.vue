@@ -73,4 +73,9 @@ import cdn from '@/const/cdn.js'
   }
 }
 
+.router-link-active {
+  color: #FF6900;
+  text-decoration: none;
+}
+
 </style>

@@ -18,8 +18,9 @@
 
 <style lang="scss" scoped>
 .event-card-container {
-  border-radius: 4px;
+  border-radius: 8px;
   border: 1px;
   background-color: grey;
+  padding: 8px;
 }
 </style>
