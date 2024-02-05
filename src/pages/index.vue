@@ -32,6 +32,7 @@
         The start of your future rally career
       </li>
     </ul>
+    <HomeEventCards />
   </main>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
   <header class="header-container">
     <nav class="navbar">
+      <img :src="`${cdn.BASE_CDN}/843114bc-9539-4529-0017-ac2ac9e16400/public`" class="image">
       <ul class="navbar-links">
         <li v-for="link in navLinks" :key="link.text">
           <NuxtLink
@@ -19,6 +20,7 @@
 
 <script setup>
 import { navLinks } from '@/const/nav-links.js'
+import cdn from '@/const/cdn.js'
 
 </script>
 
@@ -32,6 +34,12 @@ import { navLinks } from '@/const/nav-links.js'
   background-color: white;
   box-shadow: 0px 2px 5px 0px #DADADA;
   z-index: 5;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }
 
 .navbar {

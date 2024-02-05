@@ -2,19 +2,11 @@
   <footer class="footer-container">
     <div class="information-links">
       <h3>Information:</h3>
-      <ul>
-        <li v-for="link in informationLinks" :key="link.text">
-          {{ link.text }}
-        </li>
-      </ul>
+      <ListLinks :links="informationLinks" />
     </div>
     <div class="event-links">
       <h3>Events:</h3>
-      <ul>
-        <li v-for="link in eventLinks" :key="link.text">
-          {{ link.text }}
-        </li>
-      </ul>
+      <ListLinks :links="eventLinks" />
     </div>
     <div class="social_links">
       <h3>Social:</h3>
