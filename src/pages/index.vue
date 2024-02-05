@@ -33,6 +33,7 @@
       </li>
     </ul>
     <HomeEventCards />
+    <HomeFaqList />
   </main>
 </template>
 

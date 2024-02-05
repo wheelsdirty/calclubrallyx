@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="about-content-container">
     <h1>
       SCCA CalClub RallyCross Information
     </h1>
@@ -141,6 +141,12 @@
   </main>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 
 </script>
+
+<style lang="scss" scoped>
+.about-content-container {
+  padding: 48px $side-spacing;
+}
+</style>
