@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="home-content-container">
     <h1>
       Welcome to CalClubRallyX.com!
     </h1>
@@ -38,3 +38,9 @@
 <script setup>
 
 </script>
+
+<style lang="scss" scoped>
+.home-content-container {
+  padding: 48px $side-spacing;
+}
+</style>
