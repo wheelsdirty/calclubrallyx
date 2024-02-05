@@ -20,6 +20,15 @@ export default defineNuxtConfig({
       ]
     }
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "src/assets/scss/_variables.scss";'
+        }
+      }
+    }
+  },
   modules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module'

@@ -18,14 +18,8 @@
 </template>
 
 <script setup>
-const navLinks = [
-  { text: 'Home', route: '/', target: '_self' },
-  { text: 'Schedule', route: '/schedule', target: '_self' },
-  { text: 'Antelope Valley', route: '/antelope-valley', target: '_self' },
-  { text: 'Glen Helen', route: '/glen-helen', target: '_self' },
-  { text: 'Ridgecrest', route: '/ridgecrest', target: '_self' },
-  { text: 'Johnson Valley', route: '/johnson-valley', target: '_self' }
-]
+import { navLinks } from '@/const/nav-links.js'
+
 </script>
 
 <style lang="scss" scoped>
@@ -34,7 +28,7 @@ const navLinks = [
   flex-direction: row;
   position: sticky;
   top: 0;
-  height: 69px;
+  height: $header-height;
   background-color: white;
   box-shadow: 0px 2px 5px 0px #DADADA;
   z-index: 5;
